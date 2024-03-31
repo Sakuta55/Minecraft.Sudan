@@ -1,0 +1,9 @@
+.b{
+     width:250px;
+      background:rgb(20,200,40);
+       height:250px;
+       border:5px solid Black;
+       border-radius:20px;
+       text-align:center;
+        padding:30px
+  }
