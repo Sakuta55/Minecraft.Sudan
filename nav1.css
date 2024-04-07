@@ -1,0 +1,11 @@
+nav {
+background: gray;
+width: 360px;
+display: flex;
+justify-content: space-between;
+padding: 5px;
+border-radius: 22px;
+box-shadow: 2px 2px 20px rgb(0, 0, 0,0.3);
+
+
+}

@@ -1,0 +1,15 @@
+nav > a{
+color: black;
+text-decoration: none;
+padding: 8px 16px;
+border-radius: 22px;
+
+
+}
+
+nav > a:hover {
+transition: 0.25s;
+background: rgb(56, 130, 209);
+color: white;
+
+}
