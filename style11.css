@@ -1,0 +1,37 @@
+body{
+    background-color: #00012e;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+ul li{
+    Width:150px;
+    height:50px;
+    background-color: white;
+    font-size:25px;
+    display:inline-block;
+    text-align: center;
+    line-height: 40px;
+    opacity: 0.8;
+    float: left;
+}
+ul li a{
+    text-decoration: none;
+    color: Black;
+    display: block;
+}
+ul li a:hover{
+    background-color: orange;
+}
+
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
