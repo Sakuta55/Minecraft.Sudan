@@ -20,6 +20,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src="main.js"></script>
+    <style>
+    .left-image {
+      float: left; /* تحديد الاتجاه إلى اليسار */
+      margin-right: 0px; /* تباعد بين الصورة والنص */
+    }
+  </style>
+
+<style>
+  .container {
+    positio
+
+  .
+
+  .container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  .message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+</style>
     </head>
     <body dir="rtl" style="color:white;">
 <!-- #52F3FF -->
@@ -41,10 +74,14 @@
 </nav></center>
 <br>
 <center><b style="color:purple;">بسم الله الرحمن الرحيم<p></b></center>
-<a href="Mc_Sudan.html" dir="ltr"><img src="apk.png" width="50px"alt="" dir="ltr" margin-left:500px;></a><br>
 <center><b style="color:green;">MineCraft Sudan</b></h3></center></p>
 <center><h5 style="color:#ff95e7;">صل على سيدنا وحبيبنا ونبينا محمد صل الله عليه وسلم </h5></center>
-<a href="https://facebook.com/groups/623679718691991/ "><h5 dir="ltr" style="background-color:white;">أربعة ألف عضو في مجموعة الفيسبوك<img src="4k.jpg" alt="" width="50px" style="border-radius: 40px;"></h5></a>
+<a href="Mc_Sudan.html"><img class="left-image" src="apk.png" alt="صورة" width="50px">
+</a>
+<a href="https://facebook.com/groups/623679718691991/ "><div class="container">
+  <img class="image" src="4k.jpg" width="50"alt="Your Image"></a>
+  <div class="message" style="color:white;">أربعة ألف عضو في مجموعة الفيسبوك</div>
+</div>
 <br><br>
 					 <!-- #ff95e7 --><br>
 					 <!-- <center><a href="Mc_Sudan.html"><img src="New_App.jpg" style="color:white; border-radius: 400px;" alt="" width="300px" height="50"></a></center> --><!-- New_App.jpg / New_App1.jpg -->
@@ -112,14 +149,14 @@
     width: 85vw; /* استخدم وحدة العرض النسبية */
     height: 70vh; /* استخدم وحدة الارتفاع النسبية */
     max-width: 800px; /* حدد العرض الأقصى المسموح به */
-    max-height: 900px; /* حدد الارتفاع الأقصى المسموح به */
+    max-height: 300px; /* حدد الارتفاع الأقصى المسموح به */
     background-color: white;
     padding: 5px; /* تقليل البادينغ لجعل العناصر أصغر */
     border: 3px solid green; /* تغيير لون البوردر إلى أخضر */
-    border-radius: 10px;
+    border-radius: 20px;
     color: black;
     z-index: 1;
-    margin: 0 auto; /* توسيط العناصر عند التحكم بالعرض */
+    margin: 50 auto; /* توسيط العناصر عند التحكم بالعرض */
 }
 
 .Announcepopup-content {
@@ -130,7 +167,7 @@
 
 .close-btn {
     position: absolute;
-    top: 7px;
+    top: 70px;
     right: 3px;
     cursor: pointer;
 }
@@ -175,20 +212,20 @@ window.onload = function() {
     align-items: center;
     justify-content: center;
     position: fixed;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 85vw; /* استخدم وحدة العرض النسبية */
     height: 70vh; /* استخدم وحدة الارتفاع النسبية */
-    max-width: 200px; /* حدد العرض الأقصى المسموح به */
-    max-height: 200px; /* حدد الارتفاع الأقصى المسموح به */
+    max-width: 600px; /* حدد العرض الأقصى المسموح به */
+    max-height: 300px; /* حدد الارتفاع الأقصى المسموح به */
     background-color: white;
     padding: 5px; /* تقليل البادينغ لجعل العناصر أصغر */
     border: 3px solid red; /* تغيير لون البوردر إلى أحمر */
     border-radius: 10px;
     color: black;
     z-index: 1;
-    margin: 0 auto; /* توسيط العناصر عند التحكم بالعرض */
+    margin: 50 auto; /* توسيط العناصر عند التحكم بالعرض */
 }
 
 .asspopup-content {
